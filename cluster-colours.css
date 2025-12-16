@@ -1,0 +1,40 @@
+/* Large clusters = GREEN */
+.marker-cluster-large,
+.marker-cluster-large > div {
+  background-color: #22c55e !important;
+  border: 2px solid #16a34a !important;
+}
+
+.marker-cluster-large > div > span {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+/* Medium clusters = YELLOW */
+.marker-cluster-medium,
+.marker-cluster-medium > div {
+  background-color: #eab308 !important;
+  border: 2px solid #ca8a04 !important;
+}
+
+.marker-cluster-medium > div > span {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+/* Small clusters = RED */
+.marker-cluster-small,
+.marker-cluster-small > div {
+  background-color: #ef4444 !important;
+  border: 2px solid #dc2626 !important;
+}
+
+.marker-cluster-small > div > span {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+/* Catch-all for any cluster */
+[class*="marker-cluster"] {
+  opacity: 1 !important;
+}
