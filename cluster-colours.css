@@ -1,39 +1,19 @@
-/* Small clusters = RED */
+/* Swap blue (m1) to show red (m3) */
 div[style*="images/m1.png"] {
-  background-image: none !important;
-  background-color: #ef4444 !important;
-  border-radius: 50% !important;
-  border: 3px solid #dc2626 !important;
+  background-image: url("/./images/m3.png") !important;
 }
 
-/* Medium clusters = YELLOW */
+/* Keep yellow (m2) as yellow (m2) */
 div[style*="images/m2.png"] {
-  background-image: none !important;
-  background-color: #eab308 !important;
-  border-radius: 50% !important;
-  border: 3px solid #ca8a04 !important;
+  background-image: url("/./images/m2.png") !important;
 }
 
-/* Large clusters = GREEN */
+/* Swap red (m3) to show blue (m1) */
 div[style*="images/m3.png"] {
-  background-image: none !important;
-  background-color: #22c55e !important;
-  border-radius: 50% !important;
-  border: 3px solid #16a34a !important;
+  background-image: url("/./images/m1.png") !important;
 }
 
-/* Larger clusters = GREEN */
+/* Optional: if m4 exists, you can swap it too */
 div[style*="images/m4.png"] {
-  background-image: none !important;
-  background-color: #22c55e !important;
-  border-radius: 50% !important;
-  border: 3px solid #16a34a !important;
-}
-
-/* Largest clusters = GREEN (if m5 exists) */
-div[style*="images/m5.png"] {
-  background-image: none !important;
-  background-color: #22c55e !important;
-  border-radius: 50% !important;
-  border: 3px solid #16a34a !important;
+  background-image: url("/./images/m4.png") !important;
 }
