@@ -1,0 +1,32 @@
+/* Large clusters = GREEN */
+.marker-cluster-large {
+  background-color: rgba(34, 197, 94, 0.6) !important;
+}
+
+.marker-cluster-large div {
+  background-color: rgba(22, 163, 74, 0.8) !important;
+}
+
+/* Medium clusters = YELLOW */
+.marker-cluster-medium {
+  background-color: rgba(234, 179, 8, 0.6) !important;
+}
+
+.marker-cluster-medium div {
+  background-color: rgba(202, 138, 4, 0.8) !important;
+}
+
+/* Small clusters = RED */
+.marker-cluster-small {
+  background-color: rgba(239, 68, 68, 0.6) !important;
+}
+
+.marker-cluster-small div {
+  background-color: rgba(220, 38, 38, 0.8) !important;
+}
+
+/* Style the text inside clusters */
+.marker-cluster span {
+  color: white !important;
+  font-weight: bold !important;
+}
